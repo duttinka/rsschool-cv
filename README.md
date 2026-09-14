@@ -1,6 +1,6 @@
 # rsschool-cv
 CV Project. Markdown &amp; Git
 
-CV: https://duttinka.github.io/rsschool-cv/cv
+CV (markdown): https://duttinka.github.io/rsschool-cv/cv
 
-CV: https://duttinka.github.io/rsschool-cv/
+CV (website): https://duttinka.github.io/rsschool-cv/
