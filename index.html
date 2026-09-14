@@ -3,10 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <img src="images/me.JPG" alt="My Photo" class="profile-photo">
+            <h1>Никитёнок Диана</h1>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#code">Пример простого кода</a></li>
+                    <li><a href="#experience">Опыт работы</a></li>
+                    <li><a href="#education">Образование</a></li>
+                    <li><a href="#eng">Английский язык</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="contact">
+                <h2>Контакты</h2>
+                <p>Email: duttinka@gmail.com</p>
+                <p>Telegram: @duttinka</p>
+                <p>Discord: ytenok2280132</p>
+                <p>GitHub: github.com/duttinka</p>
+            </section>
+            <section id="about">
+                <h2>Обо мне</h2>
+                <p>Я студентка 4 курса БГУ (ФПМИ), специальность «прикладная информатика». Сейчас прохожу курс по frontend-разработке и развиваюсь в сторону веб-разработки — изучаю JavaScript, TypeScript, React, HTML/CSS. Есть опыт командной разработки: участвовала в хакатоне Space HACKATHON от МТБанка, участвовала в проектах на учебных дисциплинах. Быстро учусь новому и стремлюсь применять свои навыки в реальных проектах, начав карьеру со стажировки или junior-позиции в веб-разработке.</p>
+            </section>
+            <section id="skills">
+                <h2>Навыки</h2>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Git, GitHub</li>
+                    <li>MS SQL Server</li>
+                    <li>Командная работа</li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Пример простого кода</h2>
+                <pre><code>function doubleInteger(n) {
+                    return n * 2;
+                }</code></pre>
+            </section>
+            <section id="experience">
+                <h2>Опыт работы</h2>
+                <p>Учебный проект: работа с многопоточностью через WinAPI (CreateThread, критические секции, семафоры), решение алгоритмических задач на C++ (числа Фибоначчи, проверка палиндромов, разворот связного списка) с юнит-тестами на Google Test.</p>
+            </section>
+            <section id="education">
+                <h2>Образование</h2>
+                <p>БГУ, ФПМИ, специальность «прикладная информатика», 4 курс.</p>
+                <p>Пройденные курсы: операционные системы, компьютерные сети, алгоритмы и структуры данных, Web-программирование, модели данных и СУБД, технологии программирования для мобильных приложений.</p>
+                <p>Дополнительно: курс по frontend-разработке (JavaScript, TypeScript, React) — в процессе прохождения; курс EPAM по Git/GitHub.</p>
+            </section>
+            <section id="eng">
+                <h2>Английский язык</h2>
+                <p>Уровень B1 (Intermediate). Чтение технической документации, общение с коллегами на английском языке.</p>
+            </section>
+        </main>
+        <footer>
+            <a href="https://rs.school/">
+                <img src="images/rss-logo.svg" alt="RS School Logo" class="rss-logo">
+            </a>
+            <br>
+            <p>&copy; 2026 duttinka</p>
+            <a href="https://github.com/duttinka"> GitHub </a>
 
+        </footer>
+    </div>
 </body>
 </html>
